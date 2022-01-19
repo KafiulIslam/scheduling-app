@@ -5,13 +5,11 @@ import 'package:to_do_list/common/constant_page.dart';
 import 'package:to_do_list/common/number_ratio.dart';
 import 'package:to_do_list/dialog_box/dialogbox_in_0/floating_add_page.dart';
 
-import 'dialog_box/dialogbox_in_0/menu_box_show_dialog.dart';
-
-
 
 
 // height = 660;
-// width = 420
+// width = 420;
+
 
 void main() {
   runApp(const MyApp());
@@ -74,8 +72,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+
+
     final height = MediaQuery.of(context).size.height;
     final width = MediaQuery.of(context).size.width;
+
 
     return SafeArea(
       child: Scaffold(
